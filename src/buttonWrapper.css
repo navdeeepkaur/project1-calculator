@@ -1,0 +1,23 @@
+.buttonWrapper{
+    border-radius: 60px;
+    padding: 12px;
+    margin: 20px;
+    background-color: #999b9b;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: rgba(0, 0, 0, 0.86) 10px 15px 70px 0px;
+}
+
+@media only screen and (max-width: 550px) {
+    .buttonWrapper{
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 550px) {
+    .buttonWrapper{
+        width: 500px;
+    }
+}
